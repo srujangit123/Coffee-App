@@ -1,14 +1,4 @@
-
-/**
- * IMPORTANT: Make sure you are using the correct package name.
- * This example uses the package name:
- * package com.example.android.justjava
- * If you get an error when copying this code into Android studio, update it to match teh package name found
- * in the project's AndroidManifest.xml file.
- **/
-
 package com.example.android.justjava;
-
 
 import android.content.Context;
 import android.content.Intent;
@@ -78,10 +68,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return basePrice * quantity;
     }
+    
 
     public void increment(View view) {
-        //int quantity = 2;
-        //quantity = 3;
         if(quantity == 100){
         Toast.makeText(this, "You can't order more than 100 coffee", Toast.LENGTH_SHORT).show();
             return;
@@ -91,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void decrement(View view) {
-        //int quantity = 2;
-        //quantity = 1;
         if (quantity == 1) {
             Toast.makeText(this, "You can't order less than 1 coffee", Toast.LENGTH_SHORT).show();
             return;
