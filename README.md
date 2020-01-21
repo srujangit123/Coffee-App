@@ -11,4 +11,4 @@ This app is used to send coffee order summary to a coffee shop.
 
 
 ## Screenshots
-![Screenshot](https://github.com/srujangit123/Coffee-App/blob/master/IMG_20200121_145805.jpg)
+<img src = "https://github.com/srujangit123/Coffee-App/blob/master/IMG_20200121_145805.jpg" width = "250">
